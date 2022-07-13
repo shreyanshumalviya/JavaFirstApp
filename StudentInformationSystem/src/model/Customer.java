@@ -4,7 +4,7 @@ public class Customer {
 	int customerId;
 	String customerName;
 	int age;
-	public int setAge() {
+	public int getAge() {
 		return age;
 	}
 	public void setAge(int age) {
