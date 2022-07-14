@@ -7,9 +7,7 @@ import model.Student;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		StudentDao dao=new StudentDaoImplInMemory();
-		
+		System.out.println("Hello World");
 		
 	}
 
