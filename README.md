@@ -1,6 +1,10 @@
 # Java
+### Table of contents
+[Table of Contents](#table-of-contents)
 [Features of Java](#features-of-java)
 
+<br>
+---
 ### Features of Java
 
  - **Simple** 
@@ -19,3 +23,13 @@
 -- We can carry the same java bytecode to any platform.
 - **High Performance**
 -- It is faster than other traditional interpreted languages, as java bytecode is closer to native code. It is still slower than C, C++
+- **Multi Threaded**
+- **Dynamic**
+-- Classes are loaded on demand.
+-- Also supports feature 
+<details>
+  <summary>**Dynamic**</summary>
+  
+  -- Classes are loaded on demand.
+  -- Also supports feature 
+</details>
