@@ -1,12 +1,14 @@
 # Java
 ### Table of contents
-[Table of Contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 
-[Features of Java](#features-of-java)
+- [Features of Java](#features-of-java)
 
-[JDK, JVM, JRE](#jdk-jre-jvm)
+- [JDK, JVM, JRE](#jdk-jre-jvm)
 
-[JVM](#jvm)
+- [JVM](#jvm)
+
+- [OOPS](#object-oriented-programming-system)
 
 
 ### Features of Java
@@ -158,3 +160,38 @@ JVM Architecture
   Provides interface 
 
 </details>
+
+### Object Oriented Programming 
+
+Advantages
+- It makes development easier
+- More Secure (Encapsulation)
+
+Object 
+- Real world object that has state and behaviour.
+- It is an instance of a class.
+
+Class 
+- Collection of objects is called class.
+- Blueprint from which you can create an individual object.
+
+Inheritance
+- When a child class acquires the properties of parent class.
+
+Polymorphism
+- To do one task in different ways.
+- Achieved using method overriding and overloading.
+
+Abstraction
+- Hiding internal implementation and only functions is known as abstraction.
+- In java we have abstract classes and interfaces.
+
+Encapsulation
+- Data Hiding - Process of hiding unwanted information.
+- Data Binding - Process of binding methods, attributes together.
+
+Association
+- Represents the relationship between objects (1-1, 1-many)
+
+
+
