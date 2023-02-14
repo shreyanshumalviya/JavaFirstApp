@@ -6,6 +6,8 @@
 
 [JDK, JVM, JRE](#jdk-jre-jvm)
 
+[JVM](#jvm)
+
 
 ### Features of Java
 
@@ -86,3 +88,73 @@
 **JDK**
 - JRE + Development Tools.
 - Standard Edition, Enterprise Edition, Micro Edition.
+
+
+## JVM
+
+Provides
+- Memory Area.
+- Stores, loads Classes.
+- Garbage collection.
+- Fatal Error reporting.
+
+JVM Architecture
+
+![jvm-architecture](./readme-files/jvm-architecture.png)
+
+
+<details>
+  <summary>Class Loader</summary>
+
+  Used to load classes.
+</details>
+
+<details>
+  <summary>Class(Method) Area</summary>
+
+  It stores class structure, fields, methods and code for methods.
+</details>
+
+
+<details>
+  <summary>Heap</summary>
+
+  Stores runtime data objects.
+</details>
+
+<details>
+  <summary>Stack</summary>
+
+  - Java Stack stores frames, local variables, partial results. (what are frames?)
+  - It also helps in method invocation.
+  - Each thread has its own stack. (how are variables shared?)
+  - A Frame is created every time a method is invoked.
+
+</details>
+
+<details>
+  <summary>PC Register</summary>
+
+  Contains address of JVM instructions currently being ran.
+</details>
+
+<details>
+  <summary>Native Method Stack</summary>
+
+  Contains all native methods used in app (JNI).
+</details>
+<details>
+  <summary>Execution Engine</summary>
+
+  - A virtual processor
+  - Interpreter - reads bytecode and creates, execute instructions.
+  - JIT Compiler -- Converts similar instructions at same time to CPU instructions (machine specific code).
+  **converts instructions to machine instructions**
+
+</details>
+<details>
+  <summary>Java Native Interface</summary>
+
+  Provides interface 
+
+</details>
