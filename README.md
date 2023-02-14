@@ -1,5 +1,5 @@
 # Java
-[Features of Java](#Features_of_Java)
+[Features of Java](#features-of-java)
 
 ### Features of Java
 
