@@ -4,7 +4,8 @@
 
 [Features of Java](#features-of-java)
 
-<br>
+[JDK, JVM, JRE](#jdk-jre-jvm)
+
 
 ### Features of Java
 
@@ -67,3 +68,21 @@
 - Also supports feature from native languages like C, C++ (JNI Libraries)
 - Supports dyanmic compilation and automatic memory management (garbage collection)
 </details>
+
+### JDK, JRE, JVM
+
+**JVM** 
+- JVM is the virtual machine that provides a runtime environment in which java bytecode is executed.
+- Compiled bytecode of **other languages can also be executed** in JVM.
+- It is **platform dependent**.
+- Loads, Verifies, Executes code.
+
+
+**JRE** 
+- It is implementation of JVM.
+- Provide tools used for developing java apps.
+- It contains a set of libraries, JVM.
+
+**JDK**
+- JRE + Development Tools.
+- Standard Edition, Enterprise Edition, Micro Edition.
