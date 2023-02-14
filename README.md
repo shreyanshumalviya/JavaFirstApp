@@ -10,6 +10,8 @@
 
 - [OOPS](#object-oriented-programming-system)
 
+- [Method, Constructor](#method)
+
 
 ### Features of Java
 
@@ -195,3 +197,12 @@ Association
 
 
 
+### Method
+- Block of Code to perform some task.
+- Reusability, Readability.
+
+### Constructor
+- Special method used to instanciate the object.
+- No return type is defined (Although it returns the object).
+- Called using new keyword.
+- Default, Parameterized
