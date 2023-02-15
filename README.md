@@ -12,6 +12,10 @@
 
 - [Method, Constructor](#method)
 
+- [this, static keywords](#this-keyword)
+
+- [Inheritance(IS-A), Aggregation(HAS-A)](#inheritance-in-java)
+
 
 ### Features of Java
 
@@ -206,3 +210,36 @@ Association
 - No return type is defined (Although it returns the object).
 - Called using new keyword.
 - Default, Parameterized
+
+### Static Keyword
+
+- Used for memory management. (it saves by not being created for every instance)
+- can be applied to
+  - Variable (class variable)
+  - Method (class method)
+  - Block
+  - Nested class
+- static block of code
+  - It is run while JVM loads class.
+
+### This Keyword
+- Used to refer current class instance variable.
+- Can be used to access variables, methods, constructor.
+
+### Inheritance in Java
+
+- We use extends or implements keyword.
+- Is-A relationship
+- 5 type, Single, Multiple, Multi-level, heirarchical (two child extend to same parent), Hybrid.
+
+- Java Doesn't support multiple or hybrid.
+
+### Aggregation in java
+
+```
+class Employee{
+  Addess address;
+}
+```
+- Has-A relationship
+- Employee Has-A address.
