@@ -12,11 +12,13 @@
 
 - [Method, Constructor](#method)
 
-- [this, static, super keywords](#this-keyword)
+- [this, static, super, final keywords](#this-keyword)
 
 - [Inheritance(IS-A), Aggregation(HAS-A)](#inheritance-in-java)
 
 - [Polymorphism](#polymorphism)
+
+- [Instance Initializer Block](#instance-initializer-block)
 
 ### Features of Java
 
@@ -266,3 +268,18 @@ To do one task in different ways.
 (static methods cannot be overridden)
 
 </details>
+
+### Instance Initializer Block
+
+- Used to perform operations before initializing the class.
+- Runs everytime an instance is created.
+```
+class Bike7{  
+    int speed;  
+
+    // instance initializer block
+    {speed=100;}  
+}
+```
+
+There are three places where we can perform operations. Method, Constructor, Block.
