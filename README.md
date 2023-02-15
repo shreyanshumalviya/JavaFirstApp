@@ -16,6 +16,7 @@
 
 - [Inheritance(IS-A), Aggregation(HAS-A)](#inheritance-in-java)
 
+- [Polymorphism](#polymorphism)
 
 ### Features of Java
 
@@ -243,3 +244,22 @@ class Employee{
 ```
 - Has-A relationship
 - Employee Has-A address.
+
+### Polymorphism
+
+To do one task in different ways.
+
+<details>
+<summary>Method OverLoading</summary>
+
+- Multiple methods with same name but dirrent parameters. (Compile Tile Polymorphism)
+
+</details>
+
+<details>
+<summary>Method Overriding</summary>
+
+- Child class has same method as in parent. (Runtime Polymorphism)
+(static methods cannot be overridden)
+
+</details>
