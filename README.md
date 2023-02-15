@@ -12,7 +12,7 @@
 
 - [Method, Constructor](#method)
 
-- [this, static keywords](#this-keyword)
+- [this, static, super keywords](#this-keyword)
 
 - [Inheritance(IS-A), Aggregation(HAS-A)](#inheritance-in-java)
 
@@ -226,6 +226,9 @@ Association
 ### This Keyword
 - Used to refer current class instance variable.
 - Can be used to access variables, methods, constructor.
+
+### Super Keyword
+Is a reference variable, used to refer immediate parent class object.
 
 ### Inheritance in Java
 
